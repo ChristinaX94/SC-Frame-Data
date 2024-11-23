@@ -1,0 +1,76 @@
+.app{
+    background: magenta;
+}
+
+.banner{
+    margin-top:20px;
+    border: 1px solid white;
+    text-align:center;
+}
+
+.footer{
+    border: 5px solid white;
+    text-align:center;
+    margin:20px;
+
+}
+
+.text{
+    color: white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.grid{
+
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+}
+
+.grid2{
+
+    display:inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.modeS{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topBanner{
+
+    border: 5px solid white;
+    text-align:center;
+}
+
+.chosen{
+    background: black;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2{
+    color: magenta;
+    font-size:24px;
+    font-weight:bold;
+}
+
+.unchosen{
+    background: magenta;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

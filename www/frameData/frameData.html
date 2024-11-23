@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="frameData.css">
+    <script type="text/javascript" src="../cordova.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.touchSwipe.min.js"></script>
+
+    <script type="text/javascript" src="Assassin.js"></script>
+
+    <script type="text/javascript" src="Raphael.js"></script>
+
+
+    <script type="text/javascript" src="set.js"></script>
+
+</head>
+
+
+<body class="app" id="app">
+
+<div class="mySideBar" style="pointer-events:auto;background:black;display:none;z-index:1;position:absolute;width:50%;height:100%;" id="mySidebar">
+    <button style="background:red;" class="title" id="ge">X</button>
+    <a href="#" class="title" style="background:black;color:magenta;" id="settings">Settings</a>
+    <a href="#" class="title" style="background:black;color:magenta;" id="credits">Credits</a>
+    <a href="#" class="title" style="background:black;color:magenta;" id="exit">Exit</a>
+</div>
+
+<div class="header" id ="he">
+    <div class="header2">
+        <div class= "sbutton" id="menub"></div>
+        <div class="text">
+            <p class="text">FRAME DATA</p>
+            <p class="text" id = "headTitle"></p>
+        </div>
+        <div class= "home" id="home"></div>
+    </div>
+</div>
+
+
+<div class="buttons" id ="be">
+    <div>
+        <input type="search" id="searchBar" placeholder="Search for a move">
+        <button type="button" id="search" style="background-color: red;display: inline-block;">Search</button>
+        <button type="button" id="filterButton" style="background-color: blue;display: inline-block;">Filters</button>
+        <button type="button" id="tabs" style="background-color: green;display: inline-block;">Open all tabs</button>
+        <button type="button" id="notabs" style="background-color: purple;display: inline-block;">Close all tabs</button>
+    </div>
+</div>
+<br>
+
+<div class="frameTable" id="frameTable">
+
+</div>
+
+<div class="notes" id="notes">
+
+</div>
+
+<div class="filters" id="filters" style="text-align:center;">
+
+</div>
+
+<script type="text/javascript" src="filters.js"></script>
+
+<script type="text/javascript" src="frameData.js"></script>
+
+<script type="text/javascript" src="panel.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,345 @@
+.app{
+    background:black;
+    text-align:center;
+    position:relative;
+    display: block;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+
+.frameTable{
+    text-align:center;
+    position:relative;
+}
+
+
+.category{
+    display:block;
+    position:relative;
+    width:auto;
+    text-align:center;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.hidden{
+    display: none;
+}
+
+.data{
+    position:relative;
+    margin:10px 0px;
+    width:100%;
+}
+
+.show {display:block; position:relative;}
+
+.on{display:table; width:100%;}
+
+
+.letterSize{
+    font-size: 10px;
+}
+
+@media (min-width: 600px) {
+    .letterSize { font-size: 15px; }
+}
+
+@media (min-width: 1200px) {
+    .letterSize { font-size: 20px; }
+}
+
+
+.top{
+    background-color: red;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:20px;
+
+    border:1px solid white;
+    color:black;
+    top: -1px;
+    padding: 2px 5px;
+
+    position: sticky;
+    font-weight: bold;
+}
+
+
+.down{
+    color:white;
+    width:12.5%;
+    padding:5px;
+    border:1px solid white;
+
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.highlight{
+    background-color: orange;
+    color:black;
+}
+
+
+
+.showSC{
+    display:table-row;
+}
+
+
+.notes {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow: hidden;
+    transition: 0.0s;
+    color: red;
+    overflow: auto;
+}
+
+.freezeScreen{
+    overflow: hidden;
+    position:fixed;
+    pointer-events: none
+}
+
+
+
+
+.summaryTable{
+    border:1px solid orange;
+    color: white;
+    text-align: center;
+}
+
+.trNew{
+    border:1px solid orange;
+    width:33.3%;
+    padding:5px;
+}
+
+
+
+.widowHeader{
+    background-color: purple;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+    border:1px solid green;
+    padding: 10px;
+}
+
+.trin{
+    padding:5px;
+}
+
+.trNew2{
+    border:1px solid orange;
+    padding:5px;
+}
+
+.closeNotes{
+    display:inline-block;
+    background-color: red;
+    color:white;
+    right:5px;
+    top:0px;
+    position: absolute;
+    padding:5px;
+}
+
+.clearNotes{
+    display:inline-block;
+    background-color: orange;
+    color:white;
+    left:5px;
+    top:0px;
+    position: absolute;
+    padding:5px;
+}
+
+.applyNotes{
+    display:block;
+    background-color: green;
+    color:white;
+    padding:5px;
+    width:100%;
+    font-size: 20px;
+}
+
+.orangeLight{
+    background-color:rgba(255,0,0,0.3);
+}
+.blueLight{
+    background-color:rgba(0,0,255,0.3);
+}
+.greenLight{
+    background-color:rgba(0,255,0,0.3);
+}
+
+.brown{
+    background-color: brown;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color:red;
+}
+
+
+
+.new-table-style{
+    border: 1px solid purple;
+    text-align:left;
+}
+
+.purple{
+    background-color:purple;
+    padding:5px;
+}
+
+.purple-border-top{
+    border-top:1px solid purple;
+}
+
+.purple-border-right{
+    border-right:1px solid purple;
+}
+
+.red-text{
+    color:red;
+}
+
+.row-title{
+    text-align:center;
+    padding:5px;
+}
+
+.new-h2{
+    color: magenta;
+    text-align:center;
+}
+
+.purple-border{
+    border:1px solid purple;
+}
+
+.purple-border-left{
+    border-left:1px solid purple;
+}
+
+
+
+
+.tr0{
+    background-color: rgb(0, 0, 0);
+}
+
+.tr1 {
+    background-color: rgb(60, 60, 60);
+}
+
+.buttons{
+    left:0;
+}
+
+
+.tr0:active {
+    background-color: rgb(40, 40, 40);
+}
+
+.tr1:active {
+    background-color: rgb(100, 100, 100);
+}
+
+.smallSize{
+    margin:0 5px;
+}
+
+.filters {
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: black;
+     overflow: hidden;
+     transition: 0.0s;
+     color: red;
+     overflow: auto;
+ }
+
+.test > * {
+     vertical-align: middle;
+     line-height: normal;
+     text-align:center;
+ }
+
+
+.title{
+    color: white;
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+}
+
+.text{
+    font-size:20px;
+    color: white;
+    margin:0;
+    padding:0;
+    width:100%;
+    text-align:center;
+}
+
+.header{
+    margin-bottom:10px;
+    border: 1px solid red;
+}
+
+.sbutton {
+    width:20px;
+    height:20px;
+    cursor: pointer;
+    background-color:red;
+}
+
+.home{
+    width:20px;
+    height:20px;
+    cursor: pointer;
+    background-color:blue;
+}
+
+.header2{
+    display:inline-grid;
+    grid-template-columns:20px 1fr 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width:100%;
+}
